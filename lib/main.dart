@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_shop/data/global_variable.dart';
 import 'package:flutter_shop/screens/home_page.dart';
+import 'package:flutter_shop/screens/product_details_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -24,8 +26,13 @@ class MyApp extends StatelessWidget {
             ),
             prefixIconColor: Colors.grey,
           ),
+          appBarTheme: const AppBarTheme(
+            titleTextStyle: TextStyle(
+                color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),
+          ),
           fontFamily: 'Lato'),
-      home: HomePage(),
+      home: ProductDetailsPage(product: products[0]),
+      // home: HomePage(),
     );
   }
 }
