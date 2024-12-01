@@ -1,3 +1,4 @@
 {
-    "cmake.sourceDirectory": "/home/ritchie/project/flutter/flutter_shop/windows/flutter"
+    "cmake.sourceDirectory": "/home/ritchie/project/flutter/flutter_shop/windows/flutter",
+    "java.compile.nullAnalysis.mode": "automatic"
 }

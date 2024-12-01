@@ -31,24 +31,12 @@ final products = [
     'sizes': [6, 7, 8, 9, 10, 11],
     'images': 'assets/images/shoes_4.png',
   },
-  {
-    'id': '4',
-    'company': 'New Balance',
-    'title': 'New Balance 574',
-    'price': 80.0,
-    'sizes': [7, 8, 9, 10, 11, 12],
-    'images': 'assets/images/shoes_5.png',
-  }
-];
-
-final cart = [
-  {
-    'id': '1',
-    'company': 'Adidas',
-    'title': 'Adidas Ultraboost',
-    'price': 180.0,
-    'sizes': 9,
-    'images': 'assets/images/shoes_2.png',
-    'quantity': 1,
-  },
+  // {
+  //   'id': '4',
+  //   'company': 'New Balance',
+  //   'title': 'New Balance 574',
+  //   'price': 80.0,
+  //   'sizes': [7, 8, 9, 10, 11, 12],
+  //   'images': 'assets/images/shoes_5.png',
+  // }
 ];
